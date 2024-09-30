@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stickers</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sticker-container">
+        <img src="./assets/img/cristiano-ronaldo-1618341_1280.jpg" alt="cr7" />
+        <input type="number" id="cr7" placeholder="0" min="0" max="10" />
+      </div>
+
+      <div class="sticker-container">
+        <img src="./assets/img/football-2778583_1280.jpg" alt="balon" />
+        <input type="number" id="balon" placeholder="0" min="0" max="10" />
+      </div>
+
+      <div class="sticker-container">
+        <img src="./assets/img/soccer-5065614_1280.jpg" alt="gol" />
+        <input type="number" id="gol" placeholder="0" min="0" max="10" />
+      </div>
+
+      <button onclick="calcularStickers()">Calcular</button>
+      <p id="resultado"></p>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
